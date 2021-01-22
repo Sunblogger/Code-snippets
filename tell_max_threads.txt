@@ -1,0 +1,6 @@
+Please see header of tell_max_threads.cpp how to compile and link and how to use.
+The program was only used on Raspberry.
+
+Example results:
+Raspberry Pi Desktop for x86 in a virtual machine: 508 threads
+Raspberry Pi OS on a Raspberry Pi 2B: 250 threads.
