@@ -1,0 +1,12 @@
+print_colors_in_terminal.cpp:
+This is a small demo how to use colors and textformats in a terminal for Raspberry OS.
+The program was tested only on Raspberry OS (for Intel x86 and ARM-HF) but should work with any Linux, too.
+
+How to compile and link:
+g++ print_colors_in_terminal.cpp -o print_colors_in_terminal
+
+How to call:
+./print_colors_in_terminal
+
+Where to find additional information:
+https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences
