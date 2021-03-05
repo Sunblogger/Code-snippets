@@ -1,0 +1,18 @@
+smallbenchmark.cpp
+This program helps you to compare the performance of a platform (OS + hardware) with other platforms.
+Example: Raspberry OS on Raspberry Pi 2 is one platform. Raspberry OS on Intel Corei7 is another platform (this also valid if Raspberry OS is running in Virtualbox-VM).
+Note, that the program uses only 1 core.
+
+What does the program do?
+It simple generates random-numbers, converts them to string and saves all strings in a vector.
+
+How to compile + link?
+g++ -Wall -Wextra smallbenchmark.cpp -o smallbenchmark
+
+How to use?
+Call the program with one parameter: the number of loops you want to run. Perform same program call minimum 2 times to get a reliable result.
+
+Example results with parameter 100:
+Raspberry OS on Intel i7-4720HQ @ 2.6 GHz: 4,6 seconds
+Raspberry OS on AMD Ryzen 7 2700x @ 3.7 GHz: 2.7 seconds 
+Raspberry OS on Rasperry Pi 2B rev 1.1 (ARM-HF): 17.5 seconds
